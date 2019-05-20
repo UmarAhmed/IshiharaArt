@@ -20,7 +20,7 @@ def select(k, image_matrix):
     return clt.cluster_centers_
 
 
-# Requires the square of the distance b/w two vectors
+# Calculates the square of the distance b/w two vectors
 def dstSq(u, v):
     s = 0
     for i in range(len(u)):
